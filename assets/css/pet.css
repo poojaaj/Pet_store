@@ -1,0 +1,94 @@
+body{
+	color: #666666;
+	background: #FFFFFF;
+	font-family: Verdana, Arial, san-serif;
+}
+header {
+	background-image:url('../images/background.jpg');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+h1 {
+	margin-bottom:0;
+	line-height: 200%;
+	color: white;
+	padding-left: 2%;
+}
+
+h2 {
+	color: #3399CC;
+	font-family: Georgia, serif;
+}
+
+.col2	/*column 2*/
+{
+	float: left;
+    width: 80%;
+	padding-bottom: 99999px;
+	margin-bottom: -99999px;
+}
+
+.content{
+	padding-left: 2%;
+}
+
+.container{
+	overflow: hidden;
+}
+
+nav {	/*column 1*/
+	padding-left: 2%;
+	background: #90C7E3;
+	font-weight: bold;
+	float: left;
+    background-color: #87CEFA;
+    width: 18%;
+    padding-bottom: 99999px;
+	margin-bottom: -99999px;
+}
+
+img {
+	height: auto;
+	width: 100%;
+}
+
+footer {
+	font-size: 0.7em;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+form{
+	padding-left: 2%;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*rules for phone*/
+@media only screen and (max-width: 480px) {
+    nav{
+    	font-size: 10px;
+        width: 18%;
+		padding-left: 0;
+    }
+    .col2{
+    	font-size: small;
+        width: 80%;
+        padding: 0px;
+		margin: 0px;
+    }
+}
+/*rules for tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	
+}
+/*rules for phone*/
+@media screen and (min-width: 769px) {
+    
+}
